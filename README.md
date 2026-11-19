@@ -1,6 +1,6 @@
 # JAFECO Construction — Vercel website (updated)
 
-This is an expanded version of the original JAFECO site, keeping the **same approved official logo** (`public/assets/jafeco-logo.png`), **deep blue #003366**, and **sunset yellow #FFC629**.
+This is an expanded version of the original JAFECO site, keeping the **same approved official logo** (`public/jafeco-logo.png`), **deep blue #003366**, and **sunset yellow #FFC629**.
 
 ## Pages
 - `/` — home, seven services, brand showcase, contact and six clear action tiles
@@ -43,9 +43,9 @@ The complaints form sends submissions and image attachments to `jameswayly@gmail
 
 
 ## 2026-11-19 Visual media update
-- Original supplied approved JAFECO logo included in `public/assets/jafeco-logo.png`.
-- New concept illustrations bundled in `public/assets/*.webp` and linked from all principal pages.
-- 20-second **digitally animated aerial-style concept** included at `public/assets/construction-drone-concept.mp4` and on homepage. Not actual aerial/drone footage of a real JAFECO project.
+- Original supplied approved JAFECO logo included in `public/jafeco-logo.png`.
+- New concept illustrations bundled in `public/*.webp` and linked from all principal pages.
+- 20-second **digitally animated aerial-style concept** included at `public/construction-drone-concept.mp4` and on homepage. Not actual aerial/drone footage of a real JAFECO project.
 - Existing investment, complaint, quotation, consultation and WhatsApp request pages retained.
 - Vercel preset Other; root `./`; output directory `public` (defined in `vercel.json`).
 - Upload the entire extracted website repository content to GitHub, keeping the `public` folder and `vercel.json` in the root. Do not upload ZIP as a single file.
