@@ -40,3 +40,12 @@ The complaints form sends submissions and image attachments to `jameswayly@gmail
 - The form opens a WhatsApp DM to `+2348034578343` with the visitor's typed details. It does not collect funds, promise returns, or store investor submissions on Vercel.
 - Below the form, **Request an Investment Zoom Meeting** opens `/request.html?type=zoom&topic=investment`, where visitors specify a proposed date, time (WAT), and purpose before sending a WhatsApp DM. This does **not** create a Zoom meeting automatically.
 - Investment opportunities described are prospective discussion topics, not a representation of current, approved investment offers. Review applicable regulatory requirements before publishing any actual securities offering or accepting funds.
+
+
+## 2026-11-19 Visual media update
+- Original supplied approved JAFECO logo included in `public/assets/jafeco-logo.png`.
+- New concept illustrations bundled in `public/assets/*.webp` and linked from all principal pages.
+- 20-second **digitally animated aerial-style concept** included at `public/assets/construction-drone-concept.mp4` and on homepage. Not actual aerial/drone footage of a real JAFECO project.
+- Existing investment, complaint, quotation, consultation and WhatsApp request pages retained.
+- Vercel preset Other; root `./`; output directory `public` (defined in `vercel.json`).
+- Upload the entire extracted website repository content to GitHub, keeping the `public` folder and `vercel.json` in the root. Do not upload ZIP as a single file.
